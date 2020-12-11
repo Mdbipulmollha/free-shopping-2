@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;700&family=Roboto+Slab:wght@500;600;700;800;900&display=swap');
+
+*{	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	/*font-family: 'Oswald', sans-serif;*/
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #333;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+
+}
+.row{ display:flex;
+	flex-wrap: wrap;
+	 } 
+.justify_content_center{
+	justify-content: center;
+}
+.justify_content_bettwen{
+	justify-content: space-between;
+}
+.justify_content_end{
+	justify-content: flex-end;
+}
+.justify_content_frist{
+	justify-content: flex-start;
+}
+.container{
+	width: calc(100% - 300px);
+	margin: 0 auto;
+}
